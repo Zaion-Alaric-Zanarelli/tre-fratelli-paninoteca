@@ -1,0 +1,49 @@
+:root {
+    --tf-green: #4E5B31;
+    --tf-cream: #F5E9D8;
+    --tf-wine: #7A2E2E;
+    --tf-espresso: #3B2A21;
+}
+
+body {
+    background-color: var(--tf-cream);
+    color: var(--tf-espresso);
+}
+
+.tf-navbar {
+    background-color: var(--tf-green);
+}
+
+.tf-footer {
+    background-color: var(--tf-espresso);
+    color: var(--tf-cream);
+}
+
+.tf-card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.tf-card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.tf-btn-primary {
+    background-color: var(--tf-wine);
+    color: white;
+    border: none;
+}
+
+.tf-btn-primary:hover {
+    background-color: var(--tf-espresso);
+    color: white;
+}
+
+.tf-btn-secondary {
+    background-color: var(--tf-green);
+    color: white;
+    border: none;
+}
