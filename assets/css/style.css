@@ -47,3 +47,25 @@ body {
     color: white;
     border: none;
 }
+
+.tf-login-page {
+    background-color: var(--tf-cream);
+}
+
+.tf-login-box {
+    max-width: 1000px;
+    background-color: white;
+}
+
+.tf-login-image {
+    object-fit: cover;
+    min-height: 320px;
+}
+
+.tf-product-thumb {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid var(--tf-cream);
+}
