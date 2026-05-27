@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 26/05/2026 às 15:51
+-- Tempo de geração: 27/05/2026 às 14:11
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -40,6 +40,14 @@ CREATE TABLE `products` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Despejando dados para a tabela `products`
+--
+
+INSERT INTO `products` (`product_id`, `product_name`, `description`, `sale_price`, `quantity`, `unit`, `barcode`, `image`, `created_at`) VALUES
+(1, 'Caffè', 'CAFFÈ IN GRANI BORBONE KIT DEGUSTAZIONE PROVA 3KG', 44.90, 3.000, 'kg', '8034028330131', 'product_6a16cbd05deb09.11682811.png', '2026-05-27 10:47:44'),
+(2, 'Coca Cola', 'Coca Cola lattina 33cl', 2.50, 132.000, 'unit', '5449000000996', 'product_6a16d02f6a7ea9.97512456.png', '2026-05-27 11:06:23');
+
+--
 -- Índices para tabelas despejadas
 --
 
@@ -57,7 +65,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT de tabela `products`
 --
 ALTER TABLE `products`
-  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
