@@ -26,4 +26,13 @@ $text = [
     'no_image' => 'No image',
     'no_products_found' => 'No products found.',
     'confirm_delete' => 'Do you really want to delete this product?',
+    'create_product_message' => 'Fill in the details to register a new product.',
+    'quantity' => 'Quantity',
+    'unit' => 'Unit',
+    'unit_item' => 'Item',
+    'barcode' => 'Barcode',
+    'product_image' => 'Product image',
+    'image_help' => 'Recommended formats: JPG, PNG or WEBP.',
+    'save' => 'Save',
+    'cancel' => 'Cancel',
 ];

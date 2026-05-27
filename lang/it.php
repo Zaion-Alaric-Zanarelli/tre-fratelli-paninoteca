@@ -30,5 +30,14 @@ $text = [
     'new_product' => 'Nuovo prodotto',
     'no_products_found' => 'Nessun prodotto registrato.',
     'start_products_message' => 'Inizia aggiungendo i primi prodotti della paninoteca.',
+    'create_product_message' => 'Compila i dati per registrare un nuovo prodotto.',
+    'quantity' => 'Quantità',
+    'unit' => 'Unità',
+    'unit_item' => 'Unità',
+    'barcode' => 'Codice a barre',
+    'product_image' => 'Immagine del prodotto',
+    'image_help' => 'Formati consigliati: JPG, PNG o WEBP.',
+    'save' => 'Salvare',
+    'cancel' => 'Annullare',
 
 ];
